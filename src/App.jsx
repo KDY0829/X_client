@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Header";
 import AllPosts from "./pages/allPosts";
 import MyPosts from "./pages/myPosts";
 import { useAuth } from "./context/AuthContext";

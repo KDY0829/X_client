@@ -8,7 +8,7 @@ import {
   useMemo,
   useState,
 } from "react";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Login from "../pages/Login";
 
 // 전역 인증 저장소
