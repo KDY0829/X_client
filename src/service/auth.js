@@ -16,6 +16,7 @@ export default class AuthService {
       }),
     });
     this.tokenStorage.saveToken(data.token);
+    console.log(data);
     return data;
   }
 
@@ -25,6 +26,7 @@ export default class AuthService {
       body: JSON.stringify({ userid, password }),
     });
     this.tokenStorage.saveToken(data.token);
+    console.log(data);
     return data;
   }
 
